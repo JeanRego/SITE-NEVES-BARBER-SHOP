@@ -1,0 +1,105 @@
+header {
+
+	background-image: url(banner.png);
+	margin-top: 50px;
+}
+
+#menu-teste{
+	width: 80%;
+}
+
+.caixa {
+	position: relative;
+	width:100%;
+	margin:0;
+}
+
+
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.menu-nav{
+	background-color: black;
+	padding: 15px 15px;
+	border-radius: 5px;
+}
+
+.menu-nav a{
+	color: #f8df6d;
+}
+
+.menu-nav:hover{
+	
+	background-color: #f1cd30;
+}
+
+.menu-nav a:hover{
+	color: #000000;
+}
+
+
+.menu-nav:active{
+	background-color: #fff3c0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+.principal h2{
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Intro Demo', sans-serif;
+}
+
+#beneficios{
+	background-image: url("beneficios.jpg");
+	width: auto;
+	height: 400px;
+	margin-bottom: 20px;
+	
+}
+
+.beneficios h3{
+	font-family: 'Intro Demo', sans-serif;
+	color: white;
+	font-size: 70px;
+}
+
+.beneficios li{
+	color: white;
+	font-size: 30px;
+}
+
+#conteudoNavbarSuportado a{
+	color: white;
+}
+
+#conteudoNavbarSuportado li:hover{
+	background-color: #000000;
+}
